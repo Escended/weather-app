@@ -1,3 +1,60 @@
 html {
     background-color: black;
+    color: white;
+    
+}
+
+
+button {
+    width: 100px;
+    height: 35px;
+}
+
+input[type=text] {
+    height: 25px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 3px solid white; */
+    padding: 10px;
+    min-height: 400px;
+
+}
+
+.title {
+    font-size: 40px;
+    max-width: 50%;
+}
+
+.weather-info {
+    display: flex;
+    /* height: 200px; */
+    font-size: 20px;
+    /* width: 500px; */
+    /* max-width: 50%; */
+    /* align-self: center; */
+}
+.info {
+    margin: 10px;
+    align-self: center;
+    text-transform: capitalize;
+}
+
+.city {
+    font-size: 80px;
+    font-weight: 800;
+    max-width: 600px;
+    /* max-width: 50%; */
+}
+
+.textArea {
+    margin: 50px;
+    /* align-self: center; */
+    /* display: flex; */
+    /* height: 200px; */
+    
 }
